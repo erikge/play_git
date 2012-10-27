@@ -1,0 +1,10 @@
+场景一：
+1、Albert回退到某一历史版本
+2、Albert更新到当前最新版本
+3、另一个用户Brown有修改提交到git
+4、Albert pull代码，希望更新到Brown的更新
+
+场景二：
+1、Albert回退到某一历史版本
+2、另一个用户Brown有修改提交到git
+3、Albert pull代码，希望更新到Brown的更新
