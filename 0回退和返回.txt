@@ -1,10 +1,11 @@
 场景一：
-1、Albert回退到某一历史版本
-2、Albert更新到当前最新版本
-3、另一个用户Brown有修改提交到git
-4、Albert pull代码，希望更新到Brown的更新
+1、Albert有修改提交到git
+2、Brown回退到某一历史版本
+3、Brown更新到当前最新版本（前进的方式：1、git merge origin/master 2、git reset <version>）
+4、Brown pull代码，希望更新到Albert的更新
+结果：成功了，符合预期。新版本和新tag都能顺利更新下来并合并
 
 场景二：
-1、Albert回退到某一历史版本
-2、另一个用户Brown有修改提交到git
-3、Albert pull代码，希望更新到Brown的更新
+1、Brown回退到某一历史版本
+2、另一个用户Albert有修改提交到git
+3、Brown pull代码，希望更新到Albert的更新
