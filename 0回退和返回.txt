@@ -16,3 +16,10 @@
 2、Albert做一些本地修改
 2、另一个用户Brown有修改提交到git
 3、Albert pull代码，希望更新到Brown的更新
+结论：出错！
+error: Your local changes to the following files would be overwritten by merge:
+1.cpp
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+git did not exit cleanly (exit code 1) (5663 ms @ 2012/10/29 13:34:04)
