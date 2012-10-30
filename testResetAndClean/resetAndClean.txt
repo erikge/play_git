@@ -1,0 +1,1 @@
+reset --hard 和 clean 配合使用，可以实现tortoiseGit右键菜单中的revert功能
