@@ -1,1 +1,6 @@
-reset --hard 和 clean 配合使用，可以实现tortoiseGit右键菜单中的revert功能
+reset --hard不能针对指定目录，只能用于整个git库
+
+checkout 和 clean都可以指定目录，配合使用，可以实现tortoiseGit右键菜单中的revert功能
+如：
+$ git checkout .
+$ git clean -dxf .
