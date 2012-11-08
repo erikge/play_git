@@ -5,3 +5,4 @@
 reset --hard之后再做一些修改就可以了commit了，但是错误的提交的修改记录在git库里面就没有了
 
 wrong modifation
+wrong modifation 22222
